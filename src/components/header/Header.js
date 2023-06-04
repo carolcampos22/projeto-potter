@@ -1,8 +1,11 @@
+import logo from '../../assets/logo.png'
+import { HeaderContainer } from './styles'
+
 export const Header = () => {
     return (
-        <div>
-            <h3>Conhecendo os personagens de </h3>
-            <h1>Harry Potter!</h1>
-        </div>
+        <HeaderContainer>
+            <img className='logo' src={logo} />
+            
+        </HeaderContainer>
     )
 }
