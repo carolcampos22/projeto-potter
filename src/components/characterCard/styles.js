@@ -10,6 +10,7 @@ export const CardContainer = styled.div`
     padding: 1vh;
     background-color: lightgray;
     margin: 2vw;
+    
 
     img {
         width: 15vw;
