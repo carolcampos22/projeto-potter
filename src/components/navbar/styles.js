@@ -17,5 +17,14 @@ export const NavButton = styled.button`
     width: 10vw;
     height: 5vh;
     font-weight: bold;
+    border: 1px solid white;
+    margin: 1.5vh;
+
+    &:hover{
+        cursor: pointer;
+        opacity: .8;
+    }
+
+    
     
 `

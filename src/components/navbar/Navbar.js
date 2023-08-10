@@ -5,6 +5,7 @@ export const Navbar = () => {
         <NavbarContainer>
             <NavButton>Home</NavButton>
             <NavButton>Spells</NavButton>
+            
         </NavbarContainer>
     )
 }

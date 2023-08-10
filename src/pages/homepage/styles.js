@@ -25,9 +25,4 @@ export const HomePageContainer = styled.div`
         height: 40vh;
     }
 
-    button{
-        :hover{
-            cursor: pointer;
-        }
-    }
 `
