@@ -9,6 +9,7 @@ export const Header = () => {
             </div>
             <div>
                 <Title>Potterpedia</Title>
+                
             </div>
 
         </HeaderContainer>

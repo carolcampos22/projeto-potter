@@ -11,11 +11,13 @@ function App() {
     <div>
       <Header />
       <Navbar />
+      <h1>Site em desenvolvimento</h1>
       <CharactersPage />
       {/* <SpellsPage /> */}
 
     </div>
   );
 }
+//git branch -d nome-da-branch => remover a branch "roteamento"
 
 export default App;

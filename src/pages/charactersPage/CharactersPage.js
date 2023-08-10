@@ -8,7 +8,9 @@ export const CharactersPage = () => {
 
   const [characters, isLoading, isError] = useRequestData(url);
 
+
   return (
+    
     <CharactersPageContainer>
       {isLoading ? (
         <div>Carregando...</div>
