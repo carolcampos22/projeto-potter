@@ -1,37 +1,29 @@
-import { useEffect } from "react"
-import { CharacterCard } from "../../components/characterCard/CharacterCard"
-import { CharactersPageContainer } from "./styles"
-import axios from 'axios'
-import { useState } from "react"
+import React from "react";
+import { CharacterCard } from "../../components/characterCard/CharacterCard";
+import { CharactersPageContainer } from "./styles";
+import { useRequestData } from "../../hooks/useRequestData"
 
 export const CharactersPage = () => {
-    const [characters, setCharacters] = useState([])
+  const url = "https://hp-api.onrender.com/api/characters";
 
-    const fetchCharacter = () => {
-        axios.get("https://hp-api.onrender.com/api/characters")
-            .then((response) => {
-                setCharacters(response.data)
-                console.log(response.data)
-            })
-            .catch((error) => {
-                console.log(error)
-            })
-    }
+  const [characters, isLoading, isError] = useRequestData(url);
 
-    useEffect(() => {
-        fetchCharacter()
-    }, [])
-
-    return (
-        <CharactersPageContainer>
-            {characters.slice(0, 25).map((char, index) => {
-                return <CharacterCard name={char.name} image={char.image} actor={char.actor} key={index}/>
-                 
-            })}
-            
-            
-            
-            
-        </CharactersPageContainer>
-    )
-}
+  return (
+    <CharactersPageContainer>
+      {isLoading ? (
+        <div>Carregando...</div>
+      ) : isError ? (
+        <div>Ocorreu um erro ao carregar os dados.</div>
+      ) : (
+        characters.slice(0, 25).map((char, index) => (
+          <CharacterCard
+            name={char.name}
+            image={char.image}
+            actor={char.actor}
+            key={index}
+          />
+        ))
+      )}
+    </CharactersPageContainer>
+  );
+};

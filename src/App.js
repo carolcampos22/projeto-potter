@@ -5,13 +5,15 @@ import { HomePage } from "./pages/homepage/HomePage";
 import { SpellsPage } from "./pages/spellsPage/SpellsPage";
 
 function App() {
-
+  //criar rotas
+  
   return (
     <div>
       <Header />
       <Navbar />
-      <h4>Site em desenvolvimento</h4>
       <CharactersPage />
+      {/* <SpellsPage /> */}
+
     </div>
   );
 }

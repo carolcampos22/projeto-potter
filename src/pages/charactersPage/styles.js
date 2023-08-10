@@ -5,5 +5,6 @@ export const CharactersPageContainer = styled.div`
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    background-color: #FFC500
+    background-color: #FFC500;
+    min-height: 70vh;
 `

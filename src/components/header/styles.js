@@ -5,6 +5,7 @@ export const HeaderContainer = styled.header`
     justify-content: space-between;
     align-items: center;
     background-color: #7F0909;
+    padding-top: 3vh;
 
 
     .logo{

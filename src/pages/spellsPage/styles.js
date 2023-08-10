@@ -7,8 +7,13 @@ export const SpellsPageContainer = styled.div`
     align-items: center;
     margin-left: 2vw
     gap: 10vw;
+    background-color: #aaaaaa;
+
 ` 
 
 export const Spells = styled.div`
-    text-align: center
+    text-align: center;
+    background-color: #aaaaaa;
+    margin-top: -2.5vh;
+
 `
