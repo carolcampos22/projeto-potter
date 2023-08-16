@@ -8,8 +8,7 @@ export const SpellCardContainer = styled.div`
     flex-wrap: wrap;
     width: 30vw;  
     height: 20vh;
-    border: solid white 2px;
-    background-color: lightgray;    
+    border: solid white 2px;    
     margin-top: 5vh;
     padding: 1rem;
     background-color: #2a623d;
