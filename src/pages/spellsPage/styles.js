@@ -4,6 +4,7 @@ export const SpellsPageContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    min-height: 65vh;
     align-items: center;
     margin-left: 2vw
     gap: 10vw;
@@ -16,4 +17,15 @@ export const Spells = styled.div`
     background-color: #aaaaaa;
     margin-top: -2.5vh;
 
+`
+
+export const Button = styled.button`
+    background-color: #222f5b;
+    color: #bebebe;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: .5vw 2vw;
+    padding: .8rem;
+    border: 2px solid #bebebe;
+    border-radius: 8px;
 `

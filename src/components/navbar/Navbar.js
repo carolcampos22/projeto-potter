@@ -1,11 +1,16 @@
-import { NavButton, NavbarContainer } from "./styles"
+import React from "react";
+import { NavButton, NavbarContainer } from "./styles";
 
-export const Navbar = () => {
+
+
+export const Navbar = ({navigate, goToCharactersPage, goToSpellsPage}) => {
+    
+
     return (
         <NavbarContainer>
-            <NavButton>Home</NavButton>
-            <NavButton>Spells</NavButton>
-            
+            <NavButton onClick={() => goToCharactersPage(navigate)}>Home</NavButton>
+            <NavButton onClick={() => goToSpellsPage(navigate)}>Spells</NavButton>
         </NavbarContainer>
-    )
-}
+    );
+};
+

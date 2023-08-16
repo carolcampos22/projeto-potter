@@ -18,6 +18,7 @@ export const HeaderContainer = styled.header`
         width: 60vw;
         height: 30vh;
     }
+
 `
 
 export const Title = styled.h1`
