@@ -1,8 +1,15 @@
+export const gotToHomePage = (navigate) => {
+    navigate("/")
+}
+
 export const goToCharactersPage = (navigate) => {
-    navigate("/");
+    navigate("/characters");
 }
 
 export const goToSpellsPage = (navigate) => {
     navigate("/spells");
 }
 
+export const goToDetailsPage = (navigate, id) => {
+    navigate(`/details/${id}`)
+}
