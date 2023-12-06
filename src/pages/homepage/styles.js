@@ -4,25 +4,24 @@ export const HomePageContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: pink;
+    background-color: lightgray;
     gap: 5vw;
+    min-height: 80vh;
 
     .characters{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: lightblue;
         width: 20vw;
-        height: 40vh;
+        
     }
 
     .spells{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color:lightgreen;
         width: 20vw;
-        height: 40vh;
+        
     }
 
 `
