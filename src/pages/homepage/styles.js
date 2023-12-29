@@ -13,6 +13,10 @@ export const HomePageContainer = styled.div`
         justify-content: center;
         align-items: center;
         width: 20vw;
+
+        &:hover{
+            cursor: pointer;
+        }
         
     }
 
@@ -21,6 +25,11 @@ export const HomePageContainer = styled.div`
         justify-content: center;
         align-items: center;
         width: 20vw;
+
+        &:hover{
+            cursor: pointer;
+        }
+        
         
     }
 

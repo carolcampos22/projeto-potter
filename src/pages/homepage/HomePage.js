@@ -6,6 +6,7 @@ export const HomePage = () => {
     const navigate = useNavigate()
     return (
         <HomePageContainer>
+           
             <button onClick={() => goToCharactersPage(navigate)}>
                 <div className="characters">
                     <h1>Characters</h1>

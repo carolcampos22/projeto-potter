@@ -9,14 +9,22 @@ export const SpellsPageContainer = styled.div`
     margin-left: 2vw
     gap: 10vw;
     background-color: #aaaaaa;
+    
 
 ` 
 
 export const Spells = styled.div`
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
     text-align: center;
     background-color: #aaaaaa;
-    margin-top: -2.5vh;
+    
 
+`
+export const ButtonBox = styled.div`
+    margin-right: 94vw;
 `
 
 export const Button = styled.button`

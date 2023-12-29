@@ -42,9 +42,9 @@ O projeto abrirá na porta localhost:3000.
 ![](./src/assets/spells-page.png)
 
 ### Próximos passos
-- Homepage
-- Página de detalhes dos personagens
-- Estilizações
+- Estilização da Homepage
+- Adicionar mais detalhes dos personagens
+- Estilizações de botões e outros ajustes
 - Futuramente, este projeto será refatorado para ser utilizado Next.js.
 
 ### Autora
