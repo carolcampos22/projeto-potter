@@ -34,12 +34,17 @@ npm run start
 O projeto abrirá na porta localhost:3000.
 
 ### Layout
+1. Homepage
+![](./src/assets/home.png)
 
-1. Página dos personagens:
+2. Página dos personagens:
 ![](./src/assets/characters-page.png)
 
-2. Página dos feitiços:
+3. Página dos feitiços:
 ![](./src/assets/spells-page.png)
+
+4. Página de detalhes:
+![](./src/assets/detail.png)
 
 ### Próximos passos
 - Estilização da Homepage
