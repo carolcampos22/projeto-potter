@@ -47,6 +47,7 @@ O projeto abrirá na porta localhost:3000.
 ![](./src/assets/detail.png)
 
 ### Próximos passos
+- Responsividade
 - Estilização da Homepage
 - Adicionar mais detalhes dos personagens
 - Estilizações de botões e outros ajustes
