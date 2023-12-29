@@ -10,6 +10,6 @@ export const goToSpellsPage = (navigate) => {
     navigate("/spells");
 }
 
-export const goToDetailsPage = (navigate, id) => {
-    navigate(`/details/${id}`)
+export const goToDetailsPage = (navigate, character) => {
+    navigate("/details", {state: {character}})
 }

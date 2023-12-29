@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { SpellCard } from '../../components/spellsCard/SpellCard';
-import { SpellsPageContainer, Spells, Button } from './styles';
+import { SpellsPageContainer, Spells, Button, ButtonBox } from './styles';
 import { useRequestData } from '../../hooks/useRequestData';
 import { useNavigate } from 'react-router-dom';
 import { goToCharactersPage } from '../../routes/coordinator';
@@ -20,11 +20,10 @@ export const SpellsPage = () => {
 
     return (
         <>
-            <div>
-                <Button onClick={() => goToCharactersPage(navigate)}>Voltar</Button>
-            </div>
-            <div>
                 <Spells>
+                    <ButtonBox>
+                        <Button onClick={() => goToCharactersPage(navigate)}>Voltar</Button>
+                    </ButtonBox>
                     <h1>Spells</h1>
                     <SpellsPageContainer>
                         {isLoading ? (
@@ -39,7 +38,7 @@ export const SpellsPage = () => {
 
                     </SpellsPageContainer>
                 </Spells>
-            </div>
+        
         </>
     )
 }
